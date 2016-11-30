@@ -1,0 +1,18 @@
+To run the lexer and the parser:
+
+1. Compile lexer.c as follows:
+	gcc lexer.c -o lexer
+
+2. Compile parser.c as follows:
+	gcc parser.c -o parser
+
+3. Run the lexer file, with the Rust program as a command-line argument:
+	Example:
+	./lexer TestCases/hello.rs
+
+4. After running the lexer, run the parser:
+	./parser
+
+Ouput will be printed to the console including the stack trace. The rules and the productions are present in the 
+rules.txt file. 
+	
